@@ -9,7 +9,6 @@ In this lab, we will explore and experiment with how file share works. In this e
 
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
-- DNS
 
 <h2>Operating Systems Used </h2>
 
@@ -20,7 +19,6 @@ In this lab, we will explore and experiment with how file share works. In this e
 
 - Microsoft Azure (Virtual Machines/Compute)
 - Virtual Network inside Azure Resource Group
-- Powershell
 
 <h2>Actions and Observations</h2>
 
