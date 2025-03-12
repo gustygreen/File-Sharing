@@ -53,19 +53,49 @@ Set the proper sharing access for each folder. Right click the folder(1), select
 <img src="https://github.com/user-attachments/assets/afbc456d-dd36-4550-9044-c0490de78afe" heigth="50%" width="50%"/>
 </p>
 <p>
-Set the Domain Users permission level to "Read". Select "Share  
+Set the Domain Users permission level to "Read". Select "Share".  
 </p>
 
 <p>
 <img src="https://github.com/user-attachments/assets/9ea56cdd-976b-4dbb-a6c8-ae4166bef995" heigth="50%" width="50%"/>
 </p>
 <p>
-Set the "write-access" folder to have Domain Users permission level set to "Read/Write". Select "Share  
+Set the "write-access" folder to have Domain Users permission level set to "Read/Write". Select "Share".  
 </p>
 
 <p>
 <img src="https://github.com/user-attachments/assets/6dd0d10b-80e3-4d15-8517-abda988a1c15" heigth="50%" width="50%"/>
 </p>
 <p>
-Set the "no-access" folder to have Domain Admins permission level set to "Read/Write". Select "Share  
+Set the "no-access" folder to have Domain Admins permission level set to "Read/Write". Select "Share".  
 </p>
+
+<p>
+<img src="https://github.com/user-attachments/assets/eafcaa90-e070-4f6b-8614-4fb54f0712fc" heigth="50%" width="50%"/>
+</p>
+<p>
+On Client-1 login as a normal user(Domain User) Access dc-1 through File explorer. You will see the shared folders available. 
+</p>
+
+<p>
+<img src="https://github.com/user-attachments/assets/22c63f26-9899-4fe9-911e-fd65e8bb874d" heigth="50%" width="50%"/>
+</p>
+<p>
+On Client-1 login as a normal user, they have read only access for the read-access folder so when trying to create a file they will not be able to do so. 
+</p
+
+<p>
+<img src="https://github.com/user-attachments/assets/604c8994-49e2-4288-b5b4-ac3edbe3ae4f" heigth="50%" width="50%"/>
+</p>
+<p>
+On Client-1 login as a normal user, they have read/write access for the write-access folder so when trying to create a file, they are able to do so. 
+</p
+
+<p>
+<img src="https://github.com/user-attachments/assets/ed13db02-89fb-4df2-967f-9b1b6f4412a2" heigth="50%" width="50%"/>
+</p>
+<p>
+On Client-1 login as a normal user, they are not part of the Domain Admins group so when access the no-access folder, they will not be able to do so.
+</p>
+
+This concludes the lab on file sharing.
