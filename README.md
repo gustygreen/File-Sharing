@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://github.com/user-attachments/assets/fbbbc71e-033f-40fa-9529-a21f1334396b"  height="80%" width="80%"/>
+<img src="https://github.com/user-attachments/assets/fbbbc71e-033f-40fa-9529-a21f1334396b"  height="30%" width="30%"/>
 </p>
 
 <h1>File Sharing</h1>
