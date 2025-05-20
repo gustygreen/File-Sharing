@@ -44,7 +44,7 @@ Create 4 folders on DC-1 C:\Windows directory. Label them "read-access", "write-
 <img src="https://github.com/user-attachments/assets/5895fd21-0b47-4832-841c-510aba241a68" heigth="50%" width="50%"/>
 </p>
 <p>
-Set the proper sharing access for each folder. Right click the folder(1), select Properties, select Sharing(2), ckick Share(3). Type "Domain Users" in the Name field(4) and select Add(5).   
+Set the proper sharing access for each folder. Right click the folder(1), select Properties, select Sharing(2), click Share(3). Type "Domain Users" in the Name field(4) and select Add(5).   
 </p>
 
 <p>
